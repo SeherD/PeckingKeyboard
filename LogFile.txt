@@ -1,0 +1,40 @@
+Test Phrase:he is shouting loudly
+Transcribed Phrase:he is shout ing loudly
+Number of characters typed: 45
+Characters per second: 0.6186603
+Number of words typed: 9
+Words per minute: 7.423923
+Error rate: 4.54545454545455
+S U R O E A O L O U Q S DownArrow I DownArrow I DownArrow I Backspace Slash H E Space I S Space S H I Backspace O U E I Backspace Backspace T Space I E Backspace N H Backspace G Space L O U D L Y Return T Y Y Y 
+Test Phrase:put garbage in an abandoned mine
+Transcribed Phrase:
+Number of characters typed: 0
+Characters per second: NaN
+Number of words typed: 0
+Words per minute: NaN
+Error rate: 100
+
+Test Phrase:a little encouragement is needed
+Transcribed Phrase:
+Number of characters typed: 0
+Characters per second: NaN
+Number of words typed: 0
+Words per minute: NaN
+Error rate: 100
+
+Test Phrase:faster than a speeding bullet
+Transcribed Phrase:
+Number of characters typed: 0
+Characters per second: NaN
+Number of words typed: 0
+Words per minute: NaN
+Error rate: 100
+
+Test Phrase:you must be getting old
+Transcribed Phrase:
+Number of characters typed: 0
+Characters per second: NaN
+Number of words typed: 0
+Words per minute: NaN
+Error rate: 100
+
