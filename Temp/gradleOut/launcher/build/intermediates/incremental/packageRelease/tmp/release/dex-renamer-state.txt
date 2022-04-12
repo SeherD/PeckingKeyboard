@@ -1,4 +1,0 @@
-#Thu Mar 03 21:25:19 MST 2022
-base.0=C\:\\Users\\Steven\\Desktop\\PeckingKeyboard\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex

@@ -18,7 +18,7 @@ public class AddText : MonoBehaviour
 
     public int longCounter = 1;
     public int shortCounter = 1;
-
+    public RectTransform bgImage;
     public Text myText;
     // Start is called before the first frame update
     void Start()
@@ -47,7 +47,7 @@ public class AddText : MonoBehaviour
         {
 
        
-        if (shortCounter <= 5 && longCounter <= 2)
+        if (shortCounter <= 3 && longCounter <= 1)
         {
             GenerateNewTestString();
             bg.rectTransform.sizeDelta = new Vector2(300, 30);
@@ -55,31 +55,34 @@ public class AddText : MonoBehaviour
             shortCounter++;
 
         }
-        else if (shortCounter == 6 && longCounter <= 2)
+        else if (shortCounter ==4 && longCounter <= 1)
         {
             GenerateLongString();
             bg.rectTransform.sizeDelta = new Vector2(400, 120);
             myText.rectTransform.sizeDelta = new Vector2(400, 120);
-            longCounter++;
+                bgImage.sizeDelta = new Vector2(400, 120);
+                longCounter++;
         }
 
         }
 
         else
         {
-            if (shortCounter <= 3 && longCounter <= 1)
+            if (shortCounter <= 2 && longCounter <= 1)
             {
                 GenerateNewTestString();
                 bg.rectTransform.sizeDelta = new Vector2(300, 30);
                 myText.rectTransform.sizeDelta = new Vector2(300, 30);
+
                 shortCounter++;
 
             }
-            else if (shortCounter == 4 && longCounter <= 1)
+            else if (shortCounter == 3 && longCounter <= 1)
             {
                 GenerateLongString();
                 bg.rectTransform.sizeDelta = new Vector2(400, 120);
                 myText.rectTransform.sizeDelta = new Vector2(400, 120);
+                bgImage.sizeDelta = new Vector2(400, 120);
                 longCounter++;
             }
         }

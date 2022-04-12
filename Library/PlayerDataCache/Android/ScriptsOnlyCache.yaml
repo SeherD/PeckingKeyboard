@@ -8,6 +8,8 @@ ScriptsOnlyBuild:
     - TextManagerPhysical
     - TextManagerVR
     - Typing
+    Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll:
+    - Microsoft.MixedReality.Toolkit.Editor.MixedRealityToolkitConfigurationProfileInspector
     Microsoft.MixedReality.Toolkit.Editor.Utilities.dll:
     - Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences
     Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll:
@@ -35,11 +37,15 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.ButtonConfigHelper
     - Microsoft.MixedReality.Toolkit.UI.ButtonIconSet
     - Microsoft.MixedReality.Toolkit.UI.ConstraintManager
+    - Microsoft.MixedReality.Toolkit.UI.FixedRotationToWorldConstraint
     - Microsoft.MixedReality.Toolkit.UI.Interactable
+    - Microsoft.MixedReality.Toolkit.UI.MoveAxisConstraint
     - Microsoft.MixedReality.Toolkit.UI.ObjectManipulator
     - Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2
     - Microsoft.MixedReality.Toolkit.UI.States
     - Microsoft.MixedReality.Toolkit.UI.Theme
+    Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll:
+    - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputRecordingProfile
     Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll:
     - Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSimulationProfile
     Microsoft.MixedReality.Toolkit.Services.InputSystem.dll:
@@ -216,6 +222,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12320}
     - Class: 114
+      Script: {instanceID: 12428}
+    - Class: 114
       Script: {instanceID: 12502}
     - Class: 114
       Script: {instanceID: 12532}
@@ -349,6 +357,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16790}
     - Class: 114
       Script: {instanceID: 16828}
+    - Class: 114
+      Script: {instanceID: 16882}
     - Class: 114
       Script: {instanceID: 16902}
     - Class: 114
@@ -932,7 +942,7 @@ ScriptsOnlyBuild:
     className: OVRRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 190c8e2781bf4ded9c223ad8ceb3a360
+      Hash: 50ee839e9d902c1f9c45868811ea2f64
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TextManagerVR
@@ -2720,7 +2730,7 @@ ScriptsOnlyBuild:
     className: MediaPlayerImage
   - hash:
       serializedVersion: 2
-      Hash: 706690fc00ed568b8d59ac0d37fc22b6
+      Hash: 4ad46827c5761b34dd083be20eb1e405
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AddText
@@ -4341,4 +4351,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/PeckingKeyboard.unity
-  playerPath: C:/Users/Steven/Desktop/PeckingKeyboard/peckingkeyboard.apk
+  playerPath: C:/Users/Steven/Desktop/PeckingKeyboard/KeyboardLearning.apk

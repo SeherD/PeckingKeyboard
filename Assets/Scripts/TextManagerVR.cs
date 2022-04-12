@@ -17,13 +17,15 @@ public class TextManagerVR : MonoBehaviour
     private int characterCounter;
     public string fileName = "LogFile.txt";
     bool enterPressed = false;
+    public AddText add;
 
     List<string> keyStrings = new List<string>();
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        textEntry.Select();
+        textEntry.ActivateInputField();
     }
     private void errorCalculation()
     {
@@ -102,6 +104,10 @@ public class TextManagerVR : MonoBehaviour
             endTime = Time.time;
 
             enterPressed = false;
+            characterCount();
+            add.GenerateNextTest();
+            textEntry.Select();
+            textEntry.ActivateInputField();
 
 
         }
